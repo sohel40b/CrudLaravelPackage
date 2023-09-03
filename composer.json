@@ -8,6 +8,13 @@
             "Sohel40b\\Crud\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "`Sohel40b\\Crud\\CrudServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "rana40b",
