@@ -14,3 +14,7 @@ Add Service provider from <b>config/app.config</b>
 Migrate all table which are require and update .env then migrate
 
     php artisan migrate
+    
+Open this Route
+
+    http://localhost:8000/todo
