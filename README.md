@@ -1,7 +1,5 @@
 # Laravel Crud package
 
-<br><br>
-
 To Install this package run
 
     composer require Sohel/Crud
