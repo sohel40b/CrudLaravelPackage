@@ -5,13 +5,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sohel40b\\Crud\\": "src/"
+            "sohel40b\\crud\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "`Sohel40b\\Crud\\CrudServiceProvider"
+                "`sohel40b\\crud\\CrudServiceProvider"
             ]
         }
     },
