@@ -2,15 +2,15 @@
 
 To Install this package run 
 
-    composer require Sohel40b/Crud:dev-master
+    composer require sohel40b/crud:dev-master
 
 Add Service provider from <b>config/app.config</b>
 
     'providers' => [
         ...
-        Sohel40b\Crud\CrudServiceProvider::class,
+        sohel40b\crud\CrudServiceProvider::class,
     ],
 
-Migrate all table which are require
+Migrate all table which are require and update .env then migrate
 
     php artisan migrate
