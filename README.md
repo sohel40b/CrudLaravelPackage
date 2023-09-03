@@ -1,6 +1,6 @@
 # Laravel Crud package
 
-To Install this package run
+To Install this package run 
 
     composer require Sohel40b/Crud:dev-master
 
