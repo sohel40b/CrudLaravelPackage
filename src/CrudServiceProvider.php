@@ -1,6 +1,6 @@
 <?php
 
-namespace sohel\crud;
+namespace sohel40b\crud;
 
 use Illuminate\Support\ServiceProvider;
 

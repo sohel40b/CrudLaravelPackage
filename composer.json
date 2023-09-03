@@ -1,11 +1,11 @@
 {
-    "name": "sohel/crud",
+    "name": "sohel40b/crud",
     "description": "This is generate crud operation using laravel package",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sohel\\Crud\\": "src/"
+            "Sohel40b\\Crud\\": "src/"
         }
     },
     "authors": [

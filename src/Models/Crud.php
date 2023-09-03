@@ -1,6 +1,6 @@
 <?php
 
-namespace Sohel\Crud\Models;
+namespace sohel40b\Crud\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

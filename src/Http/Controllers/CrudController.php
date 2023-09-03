@@ -1,10 +1,10 @@
 <?php
 
-namespace Sohel\Crud\Http\Controllers;
+namespace sohel40b\Crud\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use sohel\crud\Models\Crud;
+use sohel40b\crud\Models\Crud;
 
 class CrudController extends Controller
 {
