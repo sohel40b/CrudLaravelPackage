@@ -2,7 +2,7 @@
 
 To Install this package run
 
-    composer require Sohel40b/Crud
+    composer require Sohel40b/Crud:dev-master
 
 Add Service provider from <b>config/app.config</b>
 
