@@ -5,6 +5,7 @@ namespace sohel40b\Crud\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use sohel40b\crud\Models\Crud;
+use sohel40b\crud\Http\Controllers\Mode\Request\CrudRequest;
 
 class CrudController extends Controller
 {
@@ -17,12 +18,8 @@ class CrudController extends Controller
         return view('crud::create');
     }
 
-    public function store(Request $request){
-        $request->validate([
-            'name' => 'required|max:255',
-            'description' => 'required'
-        ]);
-        Crud::create($request->all());
+    public function store(CrudRequest $request){
+        Crud::create($request->validated());
         return redirect(route('todo.index'));
     }
 
@@ -32,12 +29,8 @@ class CrudController extends Controller
         return view('crud::edit',compact('data'));
     }
 
-    public function update(Request $request, $id)
+    public function update(CrudRequest $request, $id)
     {
-        $request->validate([
-            'name' => 'required|max:255',
-            'description' => 'required'
-        ]);
         $crud = Crud::find($id);
         $crud->name = $request->name;
         $crud->description = $request->description;
