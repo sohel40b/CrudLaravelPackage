@@ -1,4 +1,4 @@
-# Crud Laravel package
+## Crud Laravel package
 
 To Install this package run 
 
